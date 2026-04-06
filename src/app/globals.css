@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F0F1F2;
+  --foreground: #0D0D0D;
+
+  /* Aurora palette */
+  --aurora-white: #F0F1F2;
+  --aurora-black: #252526;
+  --aurora-transparent: transparent;
+  --aurora-1: #98A2A6;
+  --aurora-2: #b0bec5;
+  --aurora-3: #78909c;
+  --aurora-4: #cfd8dc;
+  --aurora-5: #90a4ae;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-charcoal: #252526;
+  --color-light-gray: #F0F1F2;
+  --color-medium-gray: #98A2A6;
+  --color-dark-gray: #565959;
+  --color-near-black: #0D0D0D;
+  --font-sans: var(--font-inter-tight);
+
+  --animate-aurora: aurora 60s linear infinite;
+  --animate-marquee: marquee 28s linear infinite;
+
+  @keyframes aurora {
+    from {
+      background-position: 50% 50%, 50% 50%;
+    }
+    to {
+      background-position: 350% 50%, 350% 50%;
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Marquee pause on container hover */
+.marquee-container:hover .marquee-track {
+  animation-play-state: paused;
+}
