@@ -57,11 +57,6 @@ export const metadata: Metadata = {
       "https://res.cloudinary.com/dg1x0cwdc/image/upload/q_auto/f_auto/v1775265697/Summer_Trail_Run_cbkryb.jpg",
     ],
   },
-  icons: {
-    icon: "https://res.cloudinary.com/dg1x0cwdc/image/upload/q_auto/f_auto/v1775265701/icon_trdjik.png",
-    apple:
-      "https://res.cloudinary.com/dg1x0cwdc/image/upload/q_auto/f_auto/v1775265701/icon_trdjik.png",
-  },
   robots: {
     index: true,
     follow: true,
