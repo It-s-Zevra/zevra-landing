@@ -70,7 +70,7 @@ const copy = {
       subtitle:
         "Si alguno de estos roles te describe — o crees que podemos inventar uno para ti — escríbenos. No hay formulario. No hay HR. Solo una conversación.",
       button: "Escríbeme directo",
-      email: "hola@zevra.bo",
+      email: "hello@zevraz.com",
     },
   },
   en: {
@@ -139,7 +139,7 @@ const copy = {
       subtitle:
         "If any of these roles describes you — or you think we could invent one for you — write to us. No form. No HR. Just a conversation.",
       button: "Email me directly",
-      email: "hola@zevra.bo",
+      email: "hello@zevraz.com",
     },
   },
 } as const;
