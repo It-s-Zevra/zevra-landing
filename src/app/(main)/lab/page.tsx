@@ -307,9 +307,9 @@ export default function LabPage() {
           </motion.p>
 
           <motion.h1
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.45, delay: 0.1 }}
             className="text-5xl font-bold leading-[0.95] tracking-tight text-light-gray sm:text-6xl md:text-7xl lg:text-[96px]"
           >
             {t.hero.title1}
@@ -320,18 +320,18 @@ export default function LabPage() {
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.25 }}
+            transition={{ duration: 0.4, delay: 0.25 }}
             className="mx-auto mt-10 max-w-2xl text-base leading-relaxed text-medium-gray md:text-lg"
           >
             {t.hero.subtitle}
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
+            transition={{ duration: 0.4, delay: 0.4 }}
             className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row"
           >
             <a
@@ -353,9 +353,9 @@ export default function LabPage() {
         {/* ==== MODULE PREVIEW BAND ==== */}
         <div className="relative z-10 mx-auto mt-20 max-w-6xl px-6 md:mt-28">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.55 }}
+            transition={{ duration: 0.4, delay: 0.55 }}
             className="mb-6 flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-medium-gray"
           >
             <span className="flex items-center gap-2">
@@ -373,7 +373,7 @@ export default function LabPage() {
               <motion.a
                 key={s.number}
                 href={`#service-${s.number}`}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.6 + i * 0.06 }}
                 className="group relative overflow-hidden rounded-xl border border-light-gray/10 bg-light-gray/[0.03] p-4 transition-all duration-300 hover:border-light-gray/25 hover:bg-light-gray/[0.06]"
@@ -406,26 +406,26 @@ export default function LabPage() {
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "120px" }}
               transition={{ duration: 0.5 }}
               className="mb-4 inline-block font-mono text-[11px] font-semibold uppercase tracking-[0.3em] text-medium-gray"
             >
               · {t.servicesOverline} / 6
             </motion.span>
             <motion.h2
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4 }}
               className="mx-auto max-w-3xl text-4xl font-bold tracking-tight text-near-black md:text-5xl lg:text-6xl"
             >
               {t.servicesHeading}
             </motion.h2>
             <motion.p
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.15 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4, delay: 0.15 }}
               className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-dark-gray md:text-lg"
             >
               {t.servicesSub}
@@ -462,17 +462,17 @@ export default function LabPage() {
           <motion.span
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "120px" }}
             transition={{ duration: 0.5 }}
             className="mb-6 inline-block font-mono text-[11px] font-semibold uppercase tracking-[0.3em] text-medium-gray"
           >
             · {t.finalCta.overline}
           </motion.span>
           <motion.h2
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4, delay: 0.1 }}
             className="text-4xl font-bold leading-[1.05] tracking-tight text-light-gray sm:text-5xl md:text-7xl"
           >
             {t.finalCta.heading1}
@@ -482,18 +482,18 @@ export default function LabPage() {
             </span>
           </motion.h2>
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.25 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4, delay: 0.25 }}
             className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-dark-gray md:text-lg"
           >
             {t.finalCta.subtitle}
           </motion.p>
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "120px" }}
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-10 flex justify-center"
           >
@@ -543,10 +543,10 @@ function ServiceCard({
   return (
     <motion.article
       id={`service-${service.number}`}
-      initial={{ opacity: 0, y: 40 }}
+      initial={{ opacity: 0, y: 14 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-60px" }}
-      transition={{ duration: 0.6, delay: (index % 3) * 0.1 }}
+      transition={{ duration: 0.4, delay: (index % 3) * 0.1 }}
       className="group relative flex h-full scroll-mt-28 flex-col overflow-hidden rounded-3xl border border-near-black/8 bg-white p-8 transition-all duration-500 hover:-translate-y-1 hover:border-near-black/15 hover:shadow-xl hover:shadow-near-black/5"
     >
       {/* Top row: number + icon */}

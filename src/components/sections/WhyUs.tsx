@@ -27,19 +27,19 @@ export default function WhyUs() {
       {/* Header */}
       <div className="mx-auto mb-16 max-w-2xl text-center">
         <motion.h2
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 8 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          viewport={{ once: true, margin: "120px" }}
+          transition={{ duration: 0.4 }}
           className="text-4xl font-bold tracking-tight text-near-black md:text-5xl"
         >
           {t.heading}
         </motion.h2>
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 8 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.15 }}
+          viewport={{ once: true, margin: "120px" }}
+          transition={{ duration: 0.4, delay: 0.15 }}
           className="mt-5 text-base leading-relaxed text-dark-gray md:text-lg"
         >
           {t.subheading}
@@ -51,10 +51,10 @@ export default function WhyUs() {
         {t.features.map((feature, i) => (
           <motion.div
             key={feature.title}
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 * i }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.5, delay: 0.05 * i }}
             className="group rounded-2xl border border-near-black/6 bg-white/50 p-8 transition-all duration-300 hover:border-near-black/10 hover:shadow-lg hover:shadow-near-black/3 md:p-10"
           >
             <div className="mb-8 flex h-20 items-center justify-center transition-colors duration-300 group-hover:text-near-black [&>svg]:group-hover:text-near-black">
@@ -72,9 +72,9 @@ export default function WhyUs() {
 
       {/* CTA */}
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0, y: 8 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, margin: "120px" }}
         transition={{ duration: 0.5, delay: 0.3 }}
         className="mt-14 flex justify-center"
       >

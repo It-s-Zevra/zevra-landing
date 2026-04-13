@@ -14,11 +14,11 @@ export default function Hero() {
   return (
     <AuroraBackground>
       <motion.div
-        initial={{ opacity: 0, y: 40 }}
+        initial={{ opacity: 0, y: 14 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{
           delay: 0.3,
-          duration: 0.8,
+          duration: 0.5,
           ease: "easeInOut",
         }}
         className="relative z-10 flex flex-col items-center justify-center gap-6 px-6 text-center"
@@ -27,7 +27,7 @@ export default function Hero() {
         <motion.span
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5, duration: 0.6 }}
+          transition={{ delay: 0.5, duration: 0.4 }}
           className="text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
         >
           {t.overline}
@@ -47,9 +47,9 @@ export default function Hero() {
 
         {/* CTA Buttons */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 8 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.7, duration: 0.6 }}
+          transition={{ delay: 0.7, duration: 0.4 }}
           className="mt-2 flex flex-col sm:flex-row items-center gap-3"
         >
           <a

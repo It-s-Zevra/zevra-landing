@@ -21,7 +21,7 @@ export default function TrustedBy() {
       <motion.p
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, margin: "120px" }}
         transition={{ duration: 0.5 }}
         className="mb-10 text-center text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
       >

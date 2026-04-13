@@ -342,9 +342,9 @@ export default function AgentsPage() {
           </motion.span>
 
           <motion.h1
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.45, delay: 0.1 }}
             className="max-w-4xl text-5xl font-bold leading-[1.02] tracking-tight text-near-black sm:text-6xl md:text-7xl lg:text-[96px]"
           >
             {t.hero.title1}
@@ -353,18 +353,18 @@ export default function AgentsPage() {
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.25 }}
+            transition={{ duration: 0.4, delay: 0.25 }}
             className="max-w-xl text-base leading-relaxed text-dark-gray md:text-lg"
           >
             {t.hero.subtitle}
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
+            transition={{ duration: 0.4, delay: 0.4 }}
             className="mt-2 flex flex-col items-center gap-3 sm:flex-row"
           >
             <a
@@ -394,26 +394,26 @@ export default function AgentsPage() {
           <motion.span
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "120px" }}
             transition={{ duration: 0.5 }}
             className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
           >
             {t.advantages.overline}
           </motion.span>
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4 }}
             className="text-4xl font-bold tracking-tight text-near-black md:text-5xl"
           >
             {t.advantages.heading}
           </motion.h2>
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.15 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4, delay: 0.15 }}
             className="mt-5 text-base leading-relaxed text-dark-gray md:text-lg"
           >
             {t.advantages.subheading}
@@ -424,10 +424,10 @@ export default function AgentsPage() {
           {t.advantages.items.map((item, i) => (
             <motion.div
               key={item.title}
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.08 * i }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.5, delay: 0.04 * i }}
               className="group rounded-2xl border border-near-black/6 bg-white/60 p-8 transition-all duration-300 hover:border-near-black/12 hover:bg-white hover:shadow-lg hover:shadow-near-black/5"
             >
               <AdvantageIcon index={i} />
@@ -449,26 +449,26 @@ export default function AgentsPage() {
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "120px" }}
               transition={{ duration: 0.5 }}
               className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
             >
               {t.features.overline}
             </motion.span>
             <motion.h2
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4 }}
               className="text-4xl font-bold tracking-tight text-near-black md:text-5xl"
             >
               {t.features.heading}
             </motion.h2>
             <motion.p
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.15 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4, delay: 0.15 }}
               className="mt-5 text-base leading-relaxed text-dark-gray md:text-lg"
             >
               {t.features.subheading}
@@ -479,10 +479,10 @@ export default function AgentsPage() {
             {t.features.items.map((item, i) => (
               <motion.div
                 key={item.title}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 8 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.08 * i }}
+                viewport={{ once: true, margin: "120px" }}
+                transition={{ duration: 0.5, delay: 0.04 * i }}
                 className="group relative overflow-hidden rounded-2xl border border-near-black/6 bg-light-gray p-8 transition-all duration-300 hover:border-near-black/12 hover:shadow-lg hover:shadow-near-black/5"
               >
                 <div
@@ -519,26 +519,26 @@ export default function AgentsPage() {
           <motion.span
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "120px" }}
             transition={{ duration: 0.5 }}
             className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
           >
             {t.integrations.overline}
           </motion.span>
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4 }}
             className="text-4xl font-bold tracking-tight text-light-gray md:text-5xl"
           >
             {t.integrations.heading}
           </motion.h2>
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.15 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4, delay: 0.15 }}
             className="mt-5 text-base leading-relaxed text-dark-gray md:text-lg"
           >
             {t.integrations.subheading}
@@ -558,26 +558,26 @@ export default function AgentsPage() {
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "120px" }}
               transition={{ duration: 0.5 }}
               className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
             >
               {t.pricing.overline}
             </motion.span>
             <motion.h2
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4 }}
               className="text-4xl font-bold tracking-tight text-near-black md:text-5xl"
             >
               {t.pricing.heading}
             </motion.h2>
             <motion.p
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.15 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4, delay: 0.15 }}
               className="mt-5 text-base leading-relaxed text-dark-gray md:text-lg"
             >
               {t.pricing.subheading}
@@ -588,10 +588,10 @@ export default function AgentsPage() {
             {t.pricing.plans.map((plan, i) => (
               <motion.div
                 key={plan.tag}
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.1 * i }}
+                viewport={{ once: true, margin: "120px" }}
+                transition={{ duration: 0.5, delay: 0.05 * i }}
                 className={`relative flex flex-col rounded-3xl p-8 transition-all duration-300 ${
                   plan.highlight
                     ? "border border-near-black/10 bg-near-black text-light-gray shadow-xl shadow-near-black/10 md:-translate-y-3"
@@ -698,17 +698,17 @@ export default function AgentsPage() {
           <motion.span
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "120px" }}
             transition={{ duration: 0.5 }}
             className="mb-6 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
           >
             {t.finalCta.overline}
           </motion.span>
           <motion.h2
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4, delay: 0.1 }}
             className="text-4xl font-bold leading-[1.05] tracking-tight text-light-gray sm:text-5xl md:text-7xl"
           >
             {t.finalCta.heading1}
@@ -716,18 +716,18 @@ export default function AgentsPage() {
             <span className="text-medium-gray">{t.finalCta.heading2}</span>
           </motion.h2>
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.25 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4, delay: 0.25 }}
             className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-dark-gray md:text-lg"
           >
             {t.finalCta.subtitle}
           </motion.p>
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "120px" }}
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-10 flex flex-col items-center gap-4"
           >
@@ -870,9 +870,9 @@ function AgentChatVisual({ lang }: { lang: "es" | "en" }) {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 40 }}
+      initial={{ opacity: 0, y: 14 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8, delay: 0.6 }}
+      transition={{ duration: 0.5, delay: 0.6 }}
       className="relative mx-auto w-full overflow-hidden rounded-3xl border border-near-black/8 bg-near-black shadow-2xl shadow-near-black/20"
     >
       {/* Dot grid */}

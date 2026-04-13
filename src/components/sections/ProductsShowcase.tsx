@@ -81,26 +81,26 @@ export default function ProductsShowcase() {
         <motion.span
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "120px" }}
           transition={{ duration: 0.5 }}
           className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
         >
           {t.overline}
         </motion.span>
         <motion.h2
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 8 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          viewport={{ once: true, margin: "120px" }}
+          transition={{ duration: 0.4 }}
           className="text-4xl font-bold tracking-tight text-near-black md:text-5xl"
         >
           {t.heading}
         </motion.h2>
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 8 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.15 }}
+          viewport={{ once: true, margin: "120px" }}
+          transition={{ duration: 0.4, delay: 0.15 }}
           className="mt-5 text-base leading-relaxed text-dark-gray md:text-lg"
         >
           {t.subheading}
@@ -111,10 +111,10 @@ export default function ProductsShowcase() {
         {t.products.map((product, i) => (
           <motion.div
             key={product.href}
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 0, y: 14 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 * i }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4, delay: 0.05 * i }}
           >
             <Link
               href={product.href}
@@ -269,17 +269,17 @@ function AgentMini() {
           <motion.span
             className="h-1 w-1 rounded-full bg-light-gray/70"
             animate={{ y: [0, -2, 0] }}
-            transition={{ duration: 0.8, repeat: Infinity, delay: 0 }}
+            transition={{ duration: 0.5, repeat: Infinity, delay: 0 }}
           />
           <motion.span
             className="h-1 w-1 rounded-full bg-light-gray/70"
             animate={{ y: [0, -2, 0] }}
-            transition={{ duration: 0.8, repeat: Infinity, delay: 0.15 }}
+            transition={{ duration: 0.5, repeat: Infinity, delay: 0.15 }}
           />
           <motion.span
             className="h-1 w-1 rounded-full bg-light-gray/70"
             animate={{ y: [0, -2, 0] }}
-            transition={{ duration: 0.8, repeat: Infinity, delay: 0.3 }}
+            transition={{ duration: 0.5, repeat: Infinity, delay: 0.3 }}
           />
         </div>
       </div>

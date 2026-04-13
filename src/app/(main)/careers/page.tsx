@@ -173,9 +173,9 @@ export default function CareersPage() {
           </motion.span>
 
           <motion.h1
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.45, delay: 0.1 }}
             className="max-w-4xl text-5xl font-bold leading-[1.02] tracking-tight text-near-black sm:text-6xl md:text-7xl lg:text-[88px]"
           >
             {t.hero.title1}
@@ -184,9 +184,9 @@ export default function CareersPage() {
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.25 }}
+            transition={{ duration: 0.4, delay: 0.25 }}
             className="max-w-2xl text-base leading-relaxed text-dark-gray md:text-lg"
           >
             {t.hero.subtitle}
@@ -201,26 +201,26 @@ export default function CareersPage() {
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "120px" }}
               transition={{ duration: 0.5 }}
               className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
             >
               {t.rolesOverline}
             </motion.span>
             <motion.h2
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4 }}
               className="text-4xl font-bold tracking-tight text-near-black md:text-5xl"
             >
               {t.rolesHeading}
             </motion.h2>
             <motion.p
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.15 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4, delay: 0.15 }}
               className="mt-5 text-base leading-relaxed text-dark-gray md:text-lg"
             >
               {t.rolesSub}
@@ -258,27 +258,27 @@ export default function CareersPage() {
 
         <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
           <motion.h2
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4 }}
             className="text-4xl font-bold leading-[1.05] tracking-tight text-light-gray sm:text-5xl md:text-6xl"
           >
             {t.cta.heading}
           </motion.h2>
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4, delay: 0.2 }}
             className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-dark-gray md:text-lg"
           >
             {t.cta.subtitle}
           </motion.p>
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "120px" }}
             transition={{ duration: 0.5, delay: 0.35 }}
             className="mt-10 flex justify-center"
           >
@@ -305,7 +305,7 @@ export default function CareersPage() {
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "120px" }}
             transition={{ delay: 0.5 }}
             className="mt-4 text-xs text-medium-gray"
           >
@@ -336,10 +336,10 @@ function LockedRoleCard({
 }) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 30 }}
+      initial={{ opacity: 0, y: 10 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: 0.08 * index }}
+      viewport={{ once: true, margin: "120px" }}
+      transition={{ duration: 0.5, delay: 0.04 * index }}
       className="group relative overflow-hidden rounded-2xl border border-near-black/6 bg-white/60 p-7 transition-all duration-300 hover:border-near-black/12 hover:bg-white hover:shadow-lg hover:shadow-near-black/5"
     >
       {/* Locked badge (floats top-right) */}

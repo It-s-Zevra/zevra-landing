@@ -248,9 +248,9 @@ export default function AboutPage() {
           </motion.span>
 
           <motion.h1
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.45, delay: 0.1 }}
             className="max-w-4xl text-4xl font-bold leading-[1.02] tracking-tight text-near-black sm:text-5xl md:text-6xl lg:text-[80px]"
           >
             {t.hero.title1}
@@ -259,9 +259,9 @@ export default function AboutPage() {
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.25 }}
+            transition={{ duration: 0.4, delay: 0.25 }}
             className="max-w-2xl text-base leading-relaxed text-dark-gray md:text-lg"
           >
             {t.hero.subtitle}
@@ -276,17 +276,17 @@ export default function AboutPage() {
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "120px" }}
               transition={{ duration: 0.5 }}
               className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
             >
               {t.foundersOverline}
             </motion.span>
             <motion.h2
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4 }}
               className="text-4xl font-bold tracking-tight text-near-black md:text-5xl"
             >
               {t.foundersHeading}
@@ -337,17 +337,17 @@ export default function AboutPage() {
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "120px" }}
               transition={{ duration: 0.5 }}
               className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
             >
               {t.story.overline}
             </motion.span>
             <motion.h2
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4 }}
               className="text-4xl font-bold tracking-tight text-light-gray md:text-5xl"
             >
               {t.story.heading}
@@ -382,26 +382,26 @@ export default function AboutPage() {
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "120px" }}
               transition={{ duration: 0.5 }}
               className="mb-4 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
             >
               {t.manifesto.overline}
             </motion.span>
             <motion.h2
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4 }}
               className="text-4xl font-bold tracking-tight text-near-black md:text-5xl"
             >
               {t.manifesto.heading}
             </motion.h2>
             <motion.p
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.15 }}
+              viewport={{ once: true, margin: "120px" }}
+              transition={{ duration: 0.4, delay: 0.15 }}
               className="mt-5 text-base leading-relaxed text-dark-gray md:text-lg"
             >
               {t.manifesto.lead}
@@ -412,10 +412,10 @@ export default function AboutPage() {
             {t.manifesto.points.map((p, i) => (
               <motion.div
                 key={p.problem}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 8 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.08 * i }}
+                viewport={{ once: true, margin: "120px" }}
+                transition={{ duration: 0.5, delay: 0.04 * i }}
                 className="flex items-start gap-4 rounded-2xl border border-near-black/6 bg-white/60 p-6 transition-all duration-300 hover:border-near-black/12 hover:bg-white"
               >
                 <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-near-black text-[11px] font-bold text-light-gray">
@@ -432,10 +432,10 @@ export default function AboutPage() {
           </div>
 
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4, delay: 0.4 }}
             className="mx-auto mt-14 max-w-3xl text-center text-xl font-medium leading-relaxed text-near-black md:text-2xl"
           >
             {t.manifesto.closing}
@@ -460,17 +460,17 @@ export default function AboutPage() {
           <motion.span
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "120px" }}
             transition={{ duration: 0.5 }}
             className="mb-6 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
           >
             {t.cta.overline}
           </motion.span>
           <motion.h2
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4, delay: 0.1 }}
             className="text-4xl font-bold leading-[1.05] tracking-tight text-light-gray sm:text-5xl md:text-7xl"
           >
             {t.cta.heading1}
@@ -478,18 +478,18 @@ export default function AboutPage() {
             <span className="text-medium-gray">{t.cta.heading2}</span>
           </motion.h2>
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.25 }}
+            viewport={{ once: true, margin: "120px" }}
+            transition={{ duration: 0.4, delay: 0.25 }}
             className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-dark-gray md:text-lg"
           >
             {t.cta.subtitle}
           </motion.p>
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "120px" }}
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-10 flex justify-center"
           >
@@ -552,7 +552,7 @@ function FounderBlock({
         initial={{ opacity: 0, x: reverse ? 40 : -40 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true, margin: "-80px" }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.5 }}
         className="relative"
       >
         <div className="relative mx-auto aspect-[4/5] max-w-md overflow-hidden rounded-3xl border border-near-black/8 shadow-2xl shadow-near-black/10">
@@ -585,7 +585,7 @@ function FounderBlock({
         initial={{ opacity: 0, x: reverse ? -40 : 40 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true, margin: "-80px" }}
-        transition={{ duration: 0.8, delay: 0.1 }}
+        transition={{ duration: 0.5, delay: 0.1 }}
       >
         {/* Quick facts */}
         <div className="mb-6 flex flex-wrap gap-2">
@@ -636,10 +636,10 @@ function TimelineChapter({
 }) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 30 }}
+      initial={{ opacity: 0, y: 10 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-60px" }}
-      transition={{ duration: 0.6, delay: index * 0.1 }}
+      transition={{ duration: 0.4, delay: index * 0.1 }}
       className="relative pl-16 md:pl-0"
     >
       {/* Dot */}

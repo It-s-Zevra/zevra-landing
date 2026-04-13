@@ -32,7 +32,7 @@ export default function CtaBanner() {
         <motion.span
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "120px" }}
           transition={{ duration: 0.5 }}
           className="mb-6 inline-block text-xs font-medium uppercase tracking-[0.3em] text-medium-gray"
         >
@@ -40,10 +40,10 @@ export default function CtaBanner() {
         </motion.span>
 
         <motion.h2
-          initial={{ opacity: 0, y: 30 }}
+          initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.1 }}
+          viewport={{ once: true, margin: "120px" }}
+          transition={{ duration: 0.4, delay: 0.1 }}
           className="text-4xl font-bold leading-[1.1] tracking-tight text-light-gray sm:text-5xl md:text-7xl"
         >
           {t.heading1}
@@ -52,19 +52,19 @@ export default function CtaBanner() {
         </motion.h2>
 
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 8 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.25 }}
+          viewport={{ once: true, margin: "120px" }}
+          transition={{ duration: 0.4, delay: 0.25 }}
           className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-dark-gray md:text-lg"
         >
           {t.subtitle}
         </motion.p>
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 8 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "120px" }}
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3"
         >

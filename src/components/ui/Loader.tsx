@@ -43,7 +43,7 @@ export default function Loader() {
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.7 }}
+            transition={{ delay: 0.3, duration: 0.45 }}
             className="mt-6 text-[11px] font-medium tracking-[0.65em] text-white/25 uppercase"
           >
             ZEVRA
