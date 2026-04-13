@@ -29,9 +29,9 @@ export default function Footer() {
     >
       <div className="mx-auto max-w-7xl px-6 py-12 md:py-16">
         {/* Top row */}
-        <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
+        <div className="flex flex-col items-center justify-between gap-8 lg:flex-row">
           {/* Logo */}
-          <div className="flex items-center gap-2.5">
+          <Link href="/" className="flex items-center gap-2.5">
             <Image
               src="https://res.cloudinary.com/dg1x0cwdc/image/upload/v1774782823/logosolo_vjar0o.png"
               alt="Zevra"
@@ -42,10 +42,10 @@ export default function Footer() {
             <span className="text-base font-semibold tracking-tight text-near-black">
               ZEVRA
             </span>
-          </div>
+          </Link>
 
           {/* Nav */}
-          <nav className="flex items-center gap-8">
+          <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 md:gap-x-7">
             {navLinks.map((link) => (
               <Link
                 key={link.label}

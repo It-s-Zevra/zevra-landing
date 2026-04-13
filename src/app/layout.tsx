@@ -70,7 +70,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${interTight.variable} antialiased`}>
-      <body className="min-h-screen font-sans">
+      <body className="min-h-screen overflow-x-clip font-sans">
         <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>

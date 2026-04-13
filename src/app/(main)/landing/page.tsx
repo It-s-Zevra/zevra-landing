@@ -503,7 +503,7 @@ export default function LandingPagesProductPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="mb-14 flex flex-col items-center justify-center gap-10 lg:flex-row"
+            className="mb-14 flex max-w-full flex-col items-center justify-center gap-10 overflow-hidden lg:flex-row"
           >
             <DeviceIPhone />
             <DeviceMacbook />
@@ -1081,8 +1081,8 @@ function DeviceIPhone() {
 
 function DeviceMacbook() {
   return (
-    <div className="relative flex flex-col items-center">
-      <div className="relative h-[240px] w-[380px] rounded-xl border border-near-black/10 bg-near-black p-1.5 shadow-xl shadow-near-black/10">
+    <div className="relative flex max-w-full flex-col items-center">
+      <div className="relative h-[220px] w-[300px] rounded-xl border border-near-black/10 bg-near-black p-1.5 shadow-xl shadow-near-black/10 sm:h-[240px] sm:w-[380px]">
         <div className="relative h-full w-full overflow-hidden rounded-md bg-gradient-to-br from-[#1a1a1c] to-[#0D0D0D]">
           <div className="flex items-center gap-1.5 border-b border-white/10 px-3 py-1.5">
             <div className="h-1.5 w-1.5 rounded-full bg-white/20" />
@@ -1106,7 +1106,7 @@ function DeviceMacbook() {
         </div>
       </div>
       {/* Base */}
-      <div className="h-2 w-[420px] rounded-b-xl bg-gradient-to-b from-[#272729] to-[#0D0D0D]" />
+      <div className="h-2 w-[320px] rounded-b-xl bg-gradient-to-b from-[#272729] to-[#0D0D0D] sm:w-[420px]" />
       <div className="h-1 w-[80px] rounded-b-md bg-[#0D0D0D]" />
     </div>
   );
