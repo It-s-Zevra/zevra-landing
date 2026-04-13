@@ -11,9 +11,12 @@ export default function Footer() {
   const t = translations[lang];
 
   const navLinks = [
-    { label: t.nav.portfolio, href: "#portfolio" },
-    { label: t.nav.products, href: "#products" },
-    { label: t.nav.careers, href: "#careers" },
+    { label: t.nav.about, href: "/about" },
+    { label: t.nav.products, href: "/landing" },
+    { label: t.nav.automations, href: "/automations" },
+    { label: t.nav.agents, href: "/agents" },
+    { label: t.nav.lab, href: "/lab" },
+    { label: t.nav.careers, href: "/careers" },
   ];
 
   return (

@@ -3,8 +3,12 @@ export type Language = "en" | "es";
 export const translations = {
   en: {
     nav: {
+      about: "About",
       portfolio: "Portfolio",
-      products: "Products",
+      products: "Landings",
+      automations: "Automations",
+      agents: "AI Agents",
+      lab: "Business Lab",
       careers: "Careers",
       schedule: "Book a call",
     },
@@ -57,8 +61,12 @@ export const translations = {
   },
   es: {
     nav: {
+      about: "Nosotros",
       portfolio: "Portafolio",
-      products: "Productos",
+      products: "Landings",
+      automations: "Automatizaciones",
+      agents: "Agentes IA",
+      lab: "Business Lab",
       careers: "Únete al equipo",
       schedule: "Agenda una llamada",
     },

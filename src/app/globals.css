@@ -27,6 +27,8 @@
 
   --animate-aurora: aurora 60s linear infinite;
   --animate-marquee: marquee 28s linear infinite;
+  --animate-marquee-reverse: marquee-reverse 32s linear infinite;
+  --animate-beam: beam 3s linear infinite;
 
   @keyframes aurora {
     from {
@@ -43,6 +45,32 @@
     }
     to {
       transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee-reverse {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes beam {
+    0% {
+      offset-distance: 0%;
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      offset-distance: 100%;
+      opacity: 0;
     }
   }
 }

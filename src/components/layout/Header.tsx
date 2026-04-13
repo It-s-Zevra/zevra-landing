@@ -15,9 +15,12 @@ export default function Header() {
   const t = translations[lang].nav;
 
   const navLinks = [
-    { label: t.portfolio, href: "#portfolio" },
-    { label: t.products, href: "#products" },
-    { label: t.careers, href: "#careers" },
+    { label: t.about, href: "/about" },
+    { label: t.products, href: "/landing" },
+    { label: t.automations, href: "/automations" },
+    { label: t.agents, href: "/agents" },
+    { label: t.lab, href: "/lab" },
+    { label: t.careers, href: "/careers" },
   ];
 
   useEffect(() => {
@@ -44,7 +47,7 @@ export default function Header() {
       >
         <nav className="relative mx-auto flex max-w-7xl items-center px-6 py-4 md:py-5 justify-between">
           {/* Logo */}
-          <div className="flex items-center">
+          <Link href="/" className="flex items-center" aria-label="Zevra home">
             <div className="relative z-10 w-9 h-9 md:w-10 md:h-10 shrink-0">
               <Image
                 src="https://res.cloudinary.com/dg1x0cwdc/image/upload/v1774782823/logosolo_vjar0o.png"
@@ -65,10 +68,10 @@ export default function Header() {
                 ZEVRA
               </span>
             </div>
-          </div>
+          </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6 lg:gap-7">
             {navLinks.map((link) => (
               <Link
                 key={link.label}
@@ -109,9 +112,22 @@ export default function Header() {
             {/* Book a call CTA */}
             <a
               href={CALENDLY}
-              className="rounded-full bg-near-black px-5 py-2 text-[13px] font-medium text-light-gray transition-all duration-300 hover:bg-charcoal hover:shadow-md hover:shadow-near-black/20"
+              className="group inline-flex items-center gap-2 rounded-full bg-near-black px-6 py-3 text-[13px] font-medium text-light-gray transition-all duration-300 hover:bg-charcoal hover:shadow-lg hover:shadow-near-black/20"
             >
               {t.schedule}
+              <svg
+                className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
             </a>
           </div>
 
