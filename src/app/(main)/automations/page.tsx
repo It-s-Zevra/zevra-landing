@@ -152,9 +152,8 @@ const copy = {
       heading1: "Dile adiós",
       heading2: "al trabajo manual.",
       subtitle:
-        "Agenda una llamada de 20 minutos. Identificamos los 3 procesos con mayor ROI para automatizar en tu negocio y te entregamos un plan.",
+        "Agenda una llamada de 15 minutos. Detectamos oportunidades de automatización en tu negocio y te mostramos cómo implementarlas.",
       cta: "Agenda tu diagnóstico gratis",
-      note: "Sin compromiso. Te vas con un plan aunque no trabajemos juntos.",
     },
   },
   en: {
@@ -303,9 +302,8 @@ const copy = {
       heading1: "Say goodbye",
       heading2: "to manual work.",
       subtitle:
-        "Book a 20-minute call. We'll identify the 3 highest-ROI processes to automate in your business and hand you a plan.",
+        "Book a 15-minute call. We'll detect automation opportunities in your business and show you how to implement them.",
       cta: "Book your free diagnosis",
-      note: "No commitment. You leave with a plan even if we don't work together.",
     },
   },
 } as const;
@@ -751,7 +749,6 @@ export default function AutomationsPage() {
               {t.finalCta.cta}
               <Arrow />
             </a>
-            <p className="text-xs text-medium-gray">{t.finalCta.note}</p>
           </motion.div>
         </div>
       </section>

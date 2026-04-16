@@ -9,13 +9,13 @@ const copy = {
   es: {
     hero: {
       label: "· ZEVRA BUSINESS LAB ·",
-      title1: "6 formas de",
-      title2: "profesionalizar",
+      title1: "Las 6 decisiones",
+      title2: "que hacen crecer",
       title3: "tu negocio.",
       subtitle:
-        "Un laboratorio donde diagnosticamos, diseñamos y construimos los cimientos de tu empresa. Estrategia, estructura y tecnología en un solo lugar — sin consultorías eternas, con resultados medibles.",
-      ctaPrimary: "Agenda una sesión",
-      ctaSecondary: "Ver los 6 servicios",
+        "Estrategia, estructura y tecnología en un solo lugar. Definimos contigo lo que importa y construimos lo necesario para avanzar.",
+      ctaPrimary: "Agenda una llamada",
+      ctaSecondary: "Ver cómo funciona",
     },
     modulesLabel: "Nuestros módulos",
     servicesOverline: "Servicios",
@@ -27,7 +27,7 @@ const copy = {
       whatIs: "Qué es",
       includes: "Qué incluye",
       result: "Resultado",
-      cta: "Solicitar este módulo",
+      cta: "Conversar sobre este módulo",
     },
     services: [
       {
@@ -35,15 +35,15 @@ const copy = {
         tag: "Customer Insight Engine",
         title: "Cliente & Mercado",
         whatIs:
-          "Entendemos con precisión quién es tu cliente, qué problema realmente tiene y qué está dispuesto a pagar.",
+          "Definimos contigo quién es tu cliente, qué problema tiene y qué realmente está dispuesto a pagar.",
         includes: [
-          "Entrevistas y análisis de clientes reales",
+          "Definición de tu cliente ideal",
           "Validación de hipótesis de problema/solución",
           "Segmentación clara de usuarios",
           "Identificación de oportunidades de mercado",
         ],
         result:
-          "Dejas de suponer y sabes exactamente a quién vender y por qué te comprarían.",
+          "Dejas de suponer y tienes claridad sobre a quién vender y por qué te comprarían.",
         trigger: "\"Quiero claridad sobre mi cliente\"",
       },
       {
@@ -51,15 +51,15 @@ const copy = {
         tag: "Go-To-Market",
         title: "Modelo de Negocio",
         whatIs:
-          "Diseñamos cómo tu negocio gana dinero y cómo va a conseguir clientes de forma consistente.",
+          "Definimos contigo cómo tu negocio gana dinero y cómo conseguir clientes de forma consistente.",
         includes: [
-          "Propuesta de valor clara y diferenciada",
-          "Diseño del modelo de ingresos",
+          "Definición de propuesta de valor clara",
+          "Diseño del modelo de ingresos y pricing",
           "Estructura del modelo de negocio",
-          "Estrategia go-to-market + canales de adquisición",
+          "Estrategia para adquirir clientes de forma sostenible",
         ],
         result:
-          "Pasas de vender «como puedes» a vender con estrategia, escala y foco.",
+          "Pasas de vender sin estructura a tener un modelo claro, rentable y escalable.",
         trigger: "\"Quiero un modelo de negocio que funcione\"",
       },
       {
@@ -67,28 +67,28 @@ const copy = {
         tag: "Org Design",
         title: "Diseño Organizacional",
         whatIs:
-          "Estructuramos tu negocio para que funcione sin depender completamente de ti.",
+          "Definimos la estructura de tu negocio para que funcione con claridad y menos dependencia de ti.",
         includes: [
           "Definición de roles y responsabilidades",
           "Diseño de estructura organizacional",
-          "Matriz RACI (quién hace qué y decide)",
+          "Matriz RACI (quién hace qué y quién decide)",
           "Identificación de cuellos de botella operativos",
         ],
         result:
-          "Un negocio ordenado, con responsabilidades claras. Menos caos, más ejecución.",
+          "Un negocio más ordenado, con responsabilidades claras y mejor ejecución.",
         trigger: "\"Quiero que mi negocio deje de depender de mí\"",
       },
       {
         number: "04",
         tag: "Valuation",
-        title: "Valor de tu empresa",
+        title: "Valorización",
         whatIs:
-          "Estimamos el valor de tu empresa y entendemos qué variables lo hacen subir o bajar.",
+          "Definimos el valor real de tu empresa y entendemos sus variables críticas.",
         includes: [
-          "Análisis de ingresos, crecimiento y estructura",
-          "Evaluación de drivers de valor (múltiplos, riesgo)",
+          "Análisis financiero y de crecimiento",
+          "Evaluación de drivers de valor (mercado, riesgo, múltiplos)",
           "Rango de valorización de la compañía",
-          "Identificación de palancas para aumentar el valor",
+          "Identificación de palancas para aumentar su valor",
         ],
         result:
           "Sabes cuánto vale tu empresa hoy y qué mejorar para que valga más.",
@@ -97,17 +97,17 @@ const copy = {
       {
         number: "05",
         tag: "Due Diligence",
-        title: "Venta o Inversión",
+        title: "Due Diligence",
         whatIs:
           "Preparamos y analizamos tu empresa para procesos de venta, inversión o entrada de socios.",
         includes: [
-          "Revisión estructurada (financiera, comercial, operativa)",
+          "Revisión estructurada del negocio (financiero, comercial, operativo)",
           "Identificación de riesgos críticos",
-          "Orden y preparación de información clave",
-          "Apoyo en procesos de evaluación por terceros",
+          "Preparación de información clave para terceros",
+          "Acompañamiento en procesos de evaluación",
         ],
         result:
-          "Estás listo para vender, levantar capital o negociar con confianza.",
+          "Estás preparado para vender, levantar capital o negociar con confianza.",
         trigger: "\"Quiero preparar mi empresa para inversión o venta\"",
       },
       {
@@ -123,29 +123,29 @@ const copy = {
           "Evaluación de proveedores y desarrollos",
         ],
         result:
-          "Tomas las decisiones tecnológicas correctas. Evitas errores caros y avanzas más rápido.",
+          "Tomas decisiones tecnológicas correctas, evitas errores caros y avanzas más rápido.",
         trigger: "\"Necesito dirección tecnológica para crecer\"",
       },
     ],
     finalCta: {
-      overline: "¿No sabes cuál elegir?",
+      overline: "¿No sabes por dónde partir?",
       heading1: "Agenda una llamada",
       heading2: "y lo vemos juntos.",
       subtitle:
-        "30 minutos. Te hacemos un diagnóstico en vivo y salimos con los módulos priorizados para tu caso. Sin costo, sin compromiso.",
+        "15 minutos. Entendemos tu caso y te mostramos el mejor camino para avanzar.",
       cta: "Agendar diagnóstico gratis",
     },
   },
   en: {
     hero: {
       label: "· ZEVRA BUSINESS LAB ·",
-      title1: "6 ways to",
-      title2: "professionalize",
+      title1: "The 6 decisions",
+      title2: "that grow",
       title3: "your business.",
       subtitle:
-        "A lab where we diagnose, design and build the foundations of your company. Strategy, structure and technology in one place — no endless consulting, measurable results.",
-      ctaPrimary: "Book a session",
-      ctaSecondary: "See all 6 services",
+        "Strategy, structure and technology in one place. We define with you what matters and build what's needed to move forward.",
+      ctaPrimary: "Book a call",
+      ctaSecondary: "See how it works",
     },
     modulesLabel: "Our modules",
     servicesOverline: "Services",
@@ -157,7 +157,7 @@ const copy = {
       whatIs: "What it is",
       includes: "What's included",
       result: "Result",
-      cta: "Request this module",
+      cta: "Discuss this module",
     },
     services: [
       {
@@ -258,11 +258,11 @@ const copy = {
       },
     ],
     finalCta: {
-      overline: "Don't know which one?",
+      overline: "Don't know where to start?",
       heading1: "Book a call",
       heading2: "and we'll figure it out.",
       subtitle:
-        "30 minutes. Live diagnosis, prioritized modules for your case. Free, no commitment.",
+        "15 minutes. We understand your case and show you the best path forward.",
       cta: "Book free diagnosis",
     },
   },

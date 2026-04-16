@@ -21,23 +21,23 @@ const copy = {
         "No somos otra software factory. No somos una consultora más. Somos dos founders que vivieron en carne propia lo difícil que es hacer que un negocio funcione — y decidimos construir el equipo que les hubiera salvado la vida.",
     },
     foundersOverline: "Los founders",
-    foundersHeading: "Dos caminos. Un mismo problema.",
+    foundersHeading: "Dos caminos distintos. La misma lección.",
     jp: {
       name: "Juan Pablo Valenzuela",
       role: "Co-founder · Estrategia & Negocio",
       tag: "JP",
       quickFacts: [
-        { label: "Formación", value: "Ingeniero Civil Industrial" },
-        { label: "Exit", value: "Capi Foods → USA" },
-        { label: "Rol hoy", value: "Business · Growth · Operaciones" },
+        { label: "Experiencia", value: "Founder & Operator" },
+        { label: "Especialidad", value: "Negocio & Estrategia" },
+        { label: "Enfoque", value: "Decisiones y Ejecución" },
       ],
       quote:
         "El problema casi nunca es la idea, ni la tecnología. Es cómo se estructura el negocio para que realmente funcione.",
       bio: [
-        "He pasado los últimos años construyendo negocios desde cero. Me ha tocado estar en todas las etapas: desde la idea inicial, pasando por validar, vender, levantar financiamiento, escalar… y también quebrar o cerrar.",
-        "Fui fundador de Capi Foods, donde llevamos un producto desde una idea hasta supermercados y exportaciones a Estados Unidos. En ese proceso levanté financiamiento, armé equipo y, sobre todo, aprendí lo difícil que es hacer que un negocio funcione en la vida real.",
-        "Después entré al mundo del venture building, trabajando con empresas y startups en la creación de nuevos negocios. Eso me permitió ver el otro lado: cómo las organizaciones piensan, evalúan oportunidades y toman decisiones.",
-        "Hoy lo que más me motiva es ordenar, dar claridad y conectar estrategia con ejecución en negocios reales.",
+        "He pasado los últimos años construyendo negocios desde cero y ayudando a otros a hacerlo. Validar, vender, levantar financiamiento, armar equipos… y también ver qué pasa cuando las cosas no escalan.",
+        "Fui fundador de Capi Foods, llevando un producto desde la idea hasta supermercados y exportaciones a Estados Unidos, levantando más de $180K USD y creciendo a tasas sobre el 80% anual.",
+        "Luego trabajé en venture building, diseñando y validando nuevos negocios, levantando inversión y ejecutando pilotos reales. También he colaborado con grandes empresas en innovación y hoy construyo plataformas que conectan tecnología con industria.",
+        "Después de todo eso, la conclusión es siempre la misma: el problema no es la idea, es cómo se toman las decisiones y se ejecuta. Hoy mi foco está en eso: ayudar a construir negocios que realmente funcionen.",
       ],
     },
     ivan: {
@@ -45,17 +45,17 @@ const copy = {
       role: "Co-founder · Producto & Tecnología",
       tag: "IS",
       quickFacts: [
-        { label: "Formación", value: "Ingeniero en Sistemas" },
-        { label: "Exit", value: "Menti Academy" },
-        { label: "Rol hoy", value: "Producto · IA · Automatización" },
+        { label: "Experiencia", value: "Founder & Tech Lead" },
+        { label: "Especialidad", value: "AI · Producto · Automatización" },
+        { label: "Enfoque", value: "Sistemas que escalan" },
       ],
       quote:
-        "La tecnología por sí sola no sirve de nada si no resuelve un problema real.",
+        "La tecnología no sirve de nada si no está conectada a un problema real y a un negocio que funcione.",
       bio: [
-        "Siempre me ha gustado construir cosas: desde mis primeros proyectos como desarrollador, hasta productos completos que hoy han tenido usuarios reales y resultados concretos.",
-        "Partí en el mundo del desarrollo y diseño — frontend y UX/UI — pero rápidamente empecé a involucrarme más en producto, growth y cómo la tecnología realmente impacta un negocio.",
-        "Fundé Menti Academy, una plataforma educativa que escalamos a miles de usuarios y finalmente tuvo un exit. Después, en Güil Mobility Ventures, construí y escalé startups desde cero combinando desarrollo, datos y growth.",
-        "En Seiff fui CTO y cofundador, donde construí el producto completo desde cero: automatizaciones, flujos, inteligencia artificial. Todo pensado para funcionar de verdad y escalar.",
+        "Siempre me ha gustado construir cosas. Desde mis primeros proyectos como desarrollador hasta productos completos con usuarios reales y resultados concretos.",
+        "He liderado producto y tecnología en startups, construyendo desde cero marketplaces, plataformas y sistemas con inteligencia artificial, automatización y datos. En Seiff, desarrollé el producto completo, automatizando procesos clave y levantando $70K USD en inversión para escalar el negocio.",
+        "También he trabajado en venture building, ayudando a crear y escalar startups combinando desarrollo, growth y análisis de datos, optimizando adquisición, retención y monetización.",
+        "Fui fundador de Menti Academy, donde construimos una plataforma educativa que escaló a más de 5.000 usuarios y logró un exit. Hoy mi foco está en lo mismo: construir sistemas que realmente funcionen, automatizar lo que no escala y usar tecnología para generar impacto real en negocios.",
       ],
     },
     story: {
@@ -109,7 +109,7 @@ const copy = {
       heading1: "Queremos conocer",
       heading2: "tu negocio.",
       subtitle:
-        "Una llamada de 20 minutos. Nos cuentas qué estás construyendo, te damos una perspectiva honesta y salimos con un plan concreto.",
+        "15 minutos para entender tu negocio y mostrarte dónde están las oportunidades.",
       cta: "Agenda una llamada",
     },
   },
@@ -122,23 +122,23 @@ const copy = {
         "We're not another software factory. We're not just another consultancy. We're two founders who learned first-hand how hard it is to make a business work — and decided to build the team that would have saved us back then.",
     },
     foundersOverline: "The founders",
-    foundersHeading: "Two paths. Same problem.",
+    foundersHeading: "Two different paths. Same lesson.",
     jp: {
       name: "Juan Pablo Valenzuela",
       role: "Co-founder · Strategy & Business",
       tag: "JP",
       quickFacts: [
-        { label: "Background", value: "Industrial Engineer" },
-        { label: "Exit", value: "Capi Foods → USA" },
-        { label: "Today", value: "Business · Growth · Ops" },
+        { label: "Experience", value: "Founder & Operator" },
+        { label: "Specialty", value: "Business & Strategy" },
+        { label: "Focus", value: "Decisions & Execution" },
       ],
       quote:
         "The problem is almost never the idea or the tech. It's how the business is structured to actually work.",
       bio: [
-        "I've spent the last few years building businesses from scratch. I've been in every stage: from the initial idea, to validation, selling, fundraising, scaling… and also going broke or shutting down.",
-        "I founded Capi Foods, where we took a product from an idea to supermarkets and exports to the United States. Along the way I raised capital, built a team and, above all, learned how hard it is to make a business work in real life.",
-        "Then I stepped into venture building, working with companies and startups to create new businesses. That let me see the other side: how organizations think, evaluate opportunities and make decisions.",
-        "What motivates me today is exactly that: bringing order, clarity, and connecting strategy with execution in real businesses.",
+        "I've spent the last few years building businesses from scratch and helping others do the same. Validating, selling, fundraising, building teams… and also seeing what happens when things don't scale.",
+        "I founded Capi Foods, taking a product from an idea to supermarkets and exports to the United States, raising over $180K USD and growing at rates above 80% annually.",
+        "Then I worked in venture building, designing and validating new businesses, raising investment and executing real pilots. I've also collaborated with large companies on innovation and today I build platforms that connect technology with industry.",
+        "After all that, the conclusion is always the same: the problem isn't the idea, it's how decisions are made and execution happens. Today my focus is on that: helping build businesses that actually work.",
       ],
     },
     ivan: {
@@ -146,17 +146,17 @@ const copy = {
       role: "Co-founder · Product & Technology",
       tag: "IS",
       quickFacts: [
-        { label: "Background", value: "Systems Engineer" },
-        { label: "Exit", value: "Menti Academy" },
-        { label: "Today", value: "Product · AI · Automation" },
+        { label: "Experience", value: "Founder & Tech Lead" },
+        { label: "Specialty", value: "AI · Product · Automation" },
+        { label: "Focus", value: "Systems that scale" },
       ],
       quote:
-        "Technology by itself is useless if it doesn't solve a real problem.",
+        "Technology is useless if it's not connected to a real problem and a business that works.",
       bio: [
-        "I've always loved building: from my first projects as a developer to full products with real users and concrete results.",
-        "I started in development and design — frontend and UX/UI — but I quickly got pulled into product, growth and how technology actually impacts a business.",
-        "I founded Menti Academy, an education platform we scaled to thousands of users that eventually had an exit. Then at Güil Mobility Ventures I built and scaled startups from zero combining dev, data and growth.",
-        "At Seiff I was CTO and co-founder, where I built the entire product from scratch: automations, flows, AI. All designed to actually work and scale.",
+        "I've always loved building things. From my first projects as a developer to full products with real users and concrete results.",
+        "I've led product and technology at startups, building from scratch marketplaces, platforms and systems with AI, automation and data. At Seiff, I developed the complete product, automating key processes and raising $70K USD in investment to scale the business.",
+        "I've also worked in venture building, helping create and scale startups combining development, growth and data analysis, optimizing acquisition, retention and monetization.",
+        "I founded Menti Academy, where we built an education platform that scaled to over 5,000 users and achieved an exit. Today my focus is the same: building systems that actually work, automating what doesn't scale and using technology to create real impact in businesses.",
       ],
     },
     story: {
@@ -210,7 +210,7 @@ const copy = {
       heading1: "We'd love to hear",
       heading2: "about your business.",
       subtitle:
-        "A 20-minute call. You tell us what you're building, we give you an honest take, and you leave with a concrete plan.",
+        "15 minutes to understand your business and show you where the opportunities are.",
       cta: "Book a call",
     },
   },

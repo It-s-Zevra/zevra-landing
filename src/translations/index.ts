@@ -13,11 +13,11 @@ export const translations = {
       schedule: "Book a call",
     },
     hero: {
-      overline: "The future is here",
-      heading1: "Reimagine",
-      heading2: "what's possible",
+      overline: "Most businesses grow by effort",
+      heading1: "The best ones",
+      heading2: "grow with systems",
       subtitle:
-        "We craft digital experiences that push boundaries and redefine the way brands connect with the world.",
+        "We build systems that get customers, automate processes and scale your business with technology and artificial intelligence.",
       cta: "Schedule a call",
       ctaSecondary: "See our work",
     },
@@ -25,25 +25,25 @@ export const translations = {
       label: "Trusted by",
     },
     whyUs: {
-      heading: "Built different",
+      heading: "How we turn your business into a system that grows",
       subheading:
-        "We're not a traditional software factory. We combine startup speed with corporate precision — delivering faster without compromising quality.",
+        "We design and build systems that get customers, automate your operations and scale your business.",
       cta: "Let's build together",
       features: [
         {
-          title: "Rapid Execution",
+          title: "Fast results",
           description:
-            "From concept to production in record time. No layers of approval — just focused teams shipping real value.",
+            "We implement in days, not months. You start seeing results from the beginning.",
         },
         {
-          title: "Built to Scale",
+          title: "Built to grow",
           description:
-            "Startup energy meets enterprise architecture. We build systems designed to grow with your ambition.",
+            "We don't build for the sake of it. We design systems that make sense for your business.",
         },
         {
-          title: "Always Evolving",
+          title: "Continuous improvement",
           description:
-            "Continuous iteration isn't a buzzword. We measure, learn, and optimize — your product never stops improving.",
+            "We measure, optimize and automate so your business never stops moving forward.",
         },
       ],
     },
@@ -71,11 +71,11 @@ export const translations = {
       schedule: "Agenda una llamada",
     },
     hero: {
-      overline: "El futuro está aquí",
-      heading1: "Reimagina",
-      heading2: "lo que es posible",
+      overline: "La mayoría de los negocios crece por esfuerzo",
+      heading1: "Los mejores",
+      heading2: "crecen con sistemas",
       subtitle:
-        "Creamos experiencias digitales que rompen límites y redefinen la forma en que las marcas se conectan con el mundo.",
+        "Creamos sistemas que consiguen clientes, automatizan procesos y escalan tu negocio con tecnología e inteligencia artificial.",
       cta: "Agenda una llamada",
       ctaSecondary: "Ver nuestro trabajo",
     },
@@ -83,25 +83,25 @@ export const translations = {
       label: "Con la confianza de",
     },
     whyUs: {
-      heading: "Construido diferente",
+      heading: "Cómo convertimos tu negocio en un sistema que crece",
       subheading:
-        "No somos una fábrica de software tradicional. Combinamos la velocidad de una startup con la precisión corporativa — entregando más rápido sin comprometer la calidad.",
+        "Diseñamos y construimos sistemas que consiguen clientes, automatizan tu operación y escalan tu negocio.",
       cta: "Construyamos juntos",
       features: [
         {
-          title: "Ejecución rápida",
+          title: "Resultados rápidos",
           description:
-            "Del concepto a producción en tiempo récord. Sin capas de aprobación — solo equipos enfocados entregando valor real.",
+            "Implementamos en días, no meses. Empiezas a ver resultados desde el inicio.",
         },
         {
-          title: "Construido para escalar",
+          title: "Pensado para crecer",
           description:
-            "La energía de una startup se encuentra con la arquitectura empresarial. Construimos sistemas diseñados para crecer con tu ambición.",
+            "No construimos por construir. Diseñamos sistemas que tienen sentido para tu negocio.",
         },
         {
-          title: "Siempre evolucionando",
+          title: "Mejora continua",
           description:
-            "La iteración continua no es una moda. Medimos, aprendemos y optimizamos — tu producto nunca deja de mejorar.",
+            "Medimos, optimizamos y automatizamos para que tu negocio no deje de avanzar.",
         },
       ],
     },

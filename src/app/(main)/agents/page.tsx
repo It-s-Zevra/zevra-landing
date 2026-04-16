@@ -152,9 +152,8 @@ const copy = {
       heading1: "Tu vendedor de IA",
       heading2: "listo en 7 días.",
       subtitle:
-        "Agenda una llamada de 20 minutos. Vemos tu negocio, tus procesos de venta y te entregamos un plan con el agente ideal.",
+        "Agenda una llamada de 15 minutos. Te mostramos cómo captar, responder y convertir clientes automáticamente.",
       cta: "Agenda tu diagnóstico gratis",
-      note: "Sin compromiso. Te vas con un plan aunque no trabajemos juntos.",
     },
   },
   en: {
@@ -303,9 +302,8 @@ const copy = {
       heading1: "Your AI salesperson",
       heading2: "ready in 7 days.",
       subtitle:
-        "Book a 20-minute call. We'll review your business, your sales process and hand you a plan with the ideal agent.",
+        "Book a 15-minute call. We'll show you how to capture, respond and convert customers automatically.",
       cta: "Book your free diagnosis",
-      note: "No commitment. You leave with a plan even if we don't work together.",
     },
   },
 } as const;
@@ -738,7 +736,6 @@ export default function AgentsPage() {
               {t.finalCta.cta}
               <Arrow />
             </a>
-            <p className="text-xs text-medium-gray">{t.finalCta.note}</p>
           </motion.div>
         </div>
       </section>

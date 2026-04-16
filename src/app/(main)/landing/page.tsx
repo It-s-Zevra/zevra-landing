@@ -148,7 +148,7 @@ const copy = {
       heading1: "Tu próxima landing",
       heading2: "empieza hoy.",
       subtitle:
-        "Agenda una llamada de 20 minutos. Te mostramos ejemplos reales y te damos una propuesta en menos de 48 horas.",
+        "Agenda una llamada de 15 minutos. Entendemos tu caso y te mostramos cómo hacerlo realidad.",
       cta: "Agenda tu llamada gratis",
       note: "Sin compromiso. Sin pagos adelantados. Sin letra chica.",
     },
@@ -294,7 +294,7 @@ const copy = {
       heading1: "Your next landing",
       heading2: "starts today.",
       subtitle:
-        "Book a 20-minute call. We'll show you real examples and send a proposal in under 48 hours.",
+        "Book a 15-minute call. We'll understand your case and show you how to make it happen.",
       cta: "Book your free call",
       note: "No commitment. No upfront payment. No fine print.",
     },
