@@ -25,7 +25,7 @@ const copy = {
         {
           title: "Recuperas horas cada semana",
           description:
-            "Lo que tu equipo hace manualmente en 3 horas, un flujo automatizado lo hace en segundos. Literalmente.",
+            "Lo que tu equipo hace manualmente en horas, un flujo automatizado lo hace en segundos. Literalmente.",
         },
         {
           title: "Cero errores humanos",
@@ -35,7 +35,7 @@ const copy = {
         {
           title: "Tus sistemas se hablan",
           description:
-            "CRM, ERP, facturación, Sheets, WhatsApp. Todo conectado. La información fluye sin intervención manual.",
+            "Correo, planillas, WhatsApp, facturación y tus herramientas de ventas. Todo conectado y hablando entre sí, sin que nadie traslade datos a mano.",
         },
         {
           title: "Escalas sin contratar más",
@@ -68,7 +68,7 @@ const copy = {
         {
           title: "Cotizaciones y facturación",
           description:
-            "Genera, envía y hace seguimiento de cotizaciones y facturas conectadas a tu CRM y sistema contable.",
+            "Crea, envía y haz seguimiento de cotizaciones y facturas sin tener que copiar datos entre planillas y sistemas.",
         },
         {
           title: "Reportes automáticos",
@@ -175,7 +175,7 @@ const copy = {
         {
           title: "Reclaim hours every week",
           description:
-            "What your team does manually in 3 hours, an automated flow does in seconds. Literally.",
+            "What your team does manually in hours, an automated flow does in seconds. Literally.",
         },
         {
           title: "Zero human errors",
@@ -185,7 +185,7 @@ const copy = {
         {
           title: "Your systems talk",
           description:
-            "CRM, ERP, billing, Sheets, WhatsApp. All connected. Information flows without manual work.",
+            "Email, spreadsheets, WhatsApp, billing and your sales tools. All connected and talking to each other — without anyone moving data by hand.",
         },
         {
           title: "Scale without hiring",
@@ -218,7 +218,7 @@ const copy = {
         {
           title: "Quotes and billing",
           description:
-            "Generate, send and track quotes and invoices connected to your CRM and accounting system.",
+            "Create, send and follow up on quotes and invoices without copy-pasting data between spreadsheets and systems.",
         },
         {
           title: "Automatic reporting",

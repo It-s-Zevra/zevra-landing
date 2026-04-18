@@ -105,7 +105,6 @@ const copy = {
             "Hasta 4 secciones",
             "Formulario de contacto",
             "Publicación lista en internet",
-            "Dominio y hosting incluidos",
           ],
           result: "Empiezas a recibir contactos desde el día 1",
           cta: "Quiero empezar",

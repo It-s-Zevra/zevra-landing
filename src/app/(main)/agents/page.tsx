@@ -40,7 +40,7 @@ const copy = {
         {
           title: "Agenda por ti",
           description:
-            "Se conecta con tu calendario, propone horarios y cierra reuniones en vivo durante la conversación.",
+            "Se conecta con tu calendario, propone horarios y cierra reuniones durante la conversación.",
         },
         {
           title: "Aprende cada día",
@@ -190,7 +190,7 @@ const copy = {
         {
           title: "Books for you",
           description:
-            "Connects with your calendar, proposes slots and books meetings live during the conversation.",
+            "Connects with your calendar, proposes slots and books meetings during the conversation.",
         },
         {
           title: "Learns every day",
@@ -813,7 +813,7 @@ function AgentChatVisual({ lang }: { lang: "es" | "en" }) {
             },
             {
               from: "agent",
-              text: "Perfecto. Con ese volumen el ROI es inmediato. ¿Te agendo una llamada de 20 min con un experto?",
+              text: "Perfecto. Con ese volumen el ROI es inmediato. ¿Te agendo una llamada de 15 min con un experto?",
               cta: "Agendar reunión · Mañana 10:30am",
             },
           ],
@@ -855,7 +855,7 @@ function AgentChatVisual({ lang }: { lang: "es" | "en" }) {
             },
             {
               from: "agent",
-              text: "Perfect. At that volume the ROI is immediate. Want me to book a 20-min call with an expert?",
+              text: "Perfect. At that volume the ROI is immediate. Want me to book a 15-min call with an expert?",
               cta: "Book meeting · Tomorrow 10:30am",
             },
           ],
