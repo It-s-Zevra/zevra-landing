@@ -11,11 +11,11 @@ const interTight = Inter_Tight({
 
 export const metadata: Metadata = {
   title: {
-    default: "Zevra — Digital Studio for Bold Brands",
+    default: "Diseñamos y construimos negocios que funcionan",
     template: "%s | Zevra",
   },
   description:
-    "Zevra is a digital studio building AI-powered software, apps, and digital products that scale. Startup speed, enterprise precision.",
+    "Zevra combina estrategia, tecnología y ejecución para ayudarte a conseguir clientes, automatizar procesos y escalar tu negocio.",
   keywords: [
     "digital studio",
     "software development",
@@ -33,26 +33,26 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://zevra.com"),
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "es_ES",
     url: "https://zevra.com",
     siteName: "Zevra",
-    title: "Zevra — Digital Studio for Bold Brands",
+    title: "Diseñamos y construimos negocios que funcionan",
     description:
-      "Zevra is a digital studio building AI-powered software, apps, and digital products that scale. Startup speed, enterprise precision.",
+      "Zevra combina estrategia, tecnología y ejecución para ayudarte a conseguir clientes, automatizar procesos y escalar tu negocio.",
     images: [
       {
         url: "https://res.cloudinary.com/dg1x0cwdc/image/upload/q_auto/f_auto/v1775265697/Summer_Trail_Run_cbkryb.jpg",
         width: 1200,
         height: 630,
-        alt: "Zevra — Digital Studio for Bold Brands",
+        alt: "Diseñamos y construimos negocios que funcionan",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zevra — Digital Studio for Bold Brands",
+    title: "Diseñamos y construimos negocios que funcionan",
     description:
-      "Zevra is a digital studio building AI-powered software, apps, and digital products that scale.",
+      "Zevra combina estrategia, tecnología y ejecución para ayudarte a conseguir clientes, automatizar procesos y escalar tu negocio.",
     images: [
       "https://res.cloudinary.com/dg1x0cwdc/image/upload/q_auto/f_auto/v1775265697/Summer_Trail_Run_cbkryb.jpg",
     ],
@@ -69,7 +69,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${interTight.variable} antialiased`}>
+    <html lang="es" className={`${interTight.variable} antialiased`}>
       <body className="min-h-screen overflow-x-clip font-sans">
         <LanguageProvider>{children}</LanguageProvider>
       </body>
