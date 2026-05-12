@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { motion } from "motion/react";
 import Image from "next/image";
 
-const CALENDLY = "https://calendly.com/jp-valenzuela316/15min";
+const CALENDLY = "https://calendar.app.google/7fy89SReCbSDEqrA8";
 
 export default function MeetingPage() {
   useEffect(() => {
